@@ -1,0 +1,57 @@
+
+html,body{
+    width:100%;
+    margin:0;
+    height:100%;
+}
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 100px;
+    ;}
+.buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10;;
+}
+button{
+    padding:50px;
+    font-size: large;
+    font-weight: 800;
+    width:200px;
+}
+.container-text{
+    display:flex;
+    gap:100px;
+}
+.description{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+.container-choices{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.scores{
+    display:flex;
+    justify-content: space-around;
+    font-size:100px;
+    gap:70px;
+
+}
+.colon{
+    position: fixed;;
+}
+.reset-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom:5vh;
+}
